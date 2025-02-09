@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'lexend';
+    src: url(fontes\static\LexendGiga-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'fonteh2';
+    src: url(fontes\static\SmoochSans-E.ttf);
+}
+@font-face {
+    font-family: 'fonteh1';
+    src: url(fontes\static\SmoochSans-Black.ttf);
+}
+
+html, body {
+    width: 100%;
+}
+
+header#cabecalho{
+    text-shadow: 1px 1px 1px black;
+}
+
+p{
+    font-family: 'lexend';
+}
+
+body h1{
+    text-align: center;
+    font-family: 'fonteh2', sans-serif;
+    padding: 10px;
+    border-bottom: 0px;
+    border-top: 10px;
+}
+
+div#interface{
+    width: auto;
+    height: auto;
+}
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-family: 'fonteh2';
+    font-size: 20pt;
+}
+
+body h1{
+    font-family: 'lexend';
+    font-size: 30pt;
+}
+
+header#cabecalho h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    font-size: 50pt;
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+}
+
+header#cabecalho p{
+    text-align: center;
+    font-family: 'lexend', serif;
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 12pt;
+    color: white;
+    font-family: 'lexend', sans-serif;
+    padding: 10px 25px;
+    border-radius: 6px;
+    margin: 5px 20px 5px 20px;
+
+}
+
+nav a:hover{
+    background-color: #006283;
+    transition: .5s;
+}
+
+nav#menu{
+    background-color: #008CBA;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    }
+
+/*destinos populares*/
+
+div#card{
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px  gray;
+    display: inline-block;
+    width: 300px;
+    margin: 25px;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+
+h2{
+    text-align: center;
+}
+
+li{
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    width: 400px;
+
+}
+
+div#card p {
+    padding: 0 10px 10px;
+    font-size: 20px;
+    color: #666;
+}
+
+div#card h2{
+    font-family: 'fonteh2';
+    font-size: 28pt;
+}
+
+div h1{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+/*Rodapé*/
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    unicode-bidi: isolate;
+    margin-top: 20px;
+}
+
+/*fotos*/
+
+img#dest{
+    width: 70%;
+    height: auto;
+    text-align: center;
+}
+
+img#dest:hover{
+    -webkit-transform: scale(2,2);
+    transform: scale(2,2);
+    transition: .5s;
+}
+
+img{
+    border-radius: 10px;
+}
+
+iframe{
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+}

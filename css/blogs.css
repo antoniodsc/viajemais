@@ -1,0 +1,52 @@
+.interface{
+    max-width: 900px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    text-align: left;
+}
+
+.interface h1{
+    font-size: 35pt;
+    text-align: left;
+}
+
+.dicas{
+    background: #8fbe70;
+    border: 5px dashed #6e9256;
+    border-radius: 10px;
+    padding: 10px 40px 10px 10px;
+    margin: 0 auto;
+}
+
+
+body{
+    text-align: left;
+}
+
+p{
+    text-indent: 30px;
+    margin-left: 10px;
+    font-size: 16pt;
+}
+
+h1{
+    text-align: le;
+}
+
+a{
+    color: #008CBA;
+}
+
+img{
+    border-radius: 0px;
+    padding-top: 20px;
+}
+
+legend{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(131, 131, 131);
+    letter-spacing: 1px;
+}

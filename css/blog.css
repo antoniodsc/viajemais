@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+div#card p{
+    text-align: left;
+}
+
+
+div#card a{
+    text-decoration: none;
+    color: #008CBA;
+    text-align: left;
+}
+
+div#card a:hover{
+    text-decoration: underline;
+    color: #006283;
+}
+
+img{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+header {
+    background: url("../imagens/girl-5160131_640.jpg") no-repeat center center;
+    background-size: cover;
+    height: 360px;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+
+
+nav#menu{
+    background-color: #008CBA;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    }

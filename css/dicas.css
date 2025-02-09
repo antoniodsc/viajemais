@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+header {
+    background: url("../imagens/passport-2714675_640.jpg") no-repeat center center;
+    background-size: cover;
+    height: 360px;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+nav#menu{
+background-color: #008CBA;
+padding: 10px;
+text-align: center;
+position: sticky;
+top: 0;
+z-index: 1000;
+}
